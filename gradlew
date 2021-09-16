@@ -38,15 +38,8 @@ while [ -h "$PRG" ]; do
   fi
 done
 SAVED="$(pwd)"
-echo "+=========+"
-echo $SAVED
-echo $PRG
-echo "+=========+"
 cd "$(dirname \"$PRG\")/" >/dev/null
 APP_HOME="$(pwd -P)"
-echo "+=========+"
-echo $APP_HOME
-echo "+=========+"
 cd "$SAVED" >/dev/null
 
 APP_NAME="Gradle"
