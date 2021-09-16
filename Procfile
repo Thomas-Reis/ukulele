@@ -1,1 +1,1 @@
-release: chmod u+x ukulele && ./ukulele
+worker: chmod u+x ukulele && ./ukulele
