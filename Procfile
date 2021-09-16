@@ -1,1 +1,1 @@
-release: ./ukulele
+release: chmod u+x ukulele && ./ukulele
