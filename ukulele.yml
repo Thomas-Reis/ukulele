@@ -1,0 +1,6 @@
+config:
+  token: "${DISCORD_TOKEN}"
+  shards: 1
+  prefix: "::"
+  database: "./database" # Database filename
+  game: ""
