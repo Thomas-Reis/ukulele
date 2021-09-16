@@ -1,1 +1,1 @@
-web: ./ukulele
+release: ./ukulele
