@@ -22,6 +22,8 @@
 ##
 ##############################################################################
 
+echo "  token: \"${DISCORD_TOKEN}\"" >> ukulele.yml
+
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
 PRG="$0"
@@ -42,6 +44,9 @@ echo $PRG
 echo "+=========+"
 cd "$(dirname \"$PRG\")/" >/dev/null
 APP_HOME="$(pwd -P)"
+echo "+=========+"
+echo $APP_HOME
+echo "+=========+"
 cd "$SAVED" >/dev/null
 
 APP_NAME="Gradle"
